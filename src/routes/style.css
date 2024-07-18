@@ -1,0 +1,14 @@
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+}
+
+.cards {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    left: -360px;
+}
+.card {
+    min-width: 400px !important; 
+}
